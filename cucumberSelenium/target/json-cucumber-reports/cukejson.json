@@ -1,0 +1,455 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-04-08T15:35:28.412Z",
+        "line": 4,
+        "name": "adding address",
+        "description": "",
+        "id": "address-book;adding-address",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11376603200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser",
+            "match": {
+              "location": "HomepageSteps.launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 553444700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click link signin_Link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "signin_Link",
+                  "offset": 13
+                }
+              ],
+              "location": "HomepageSteps.click_Header(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1320099800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter email testtilludie@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testtilludie@gmail.com",
+                  "offset": 14
+                }
+              ],
+              "location": "HomepageSteps.enter_Email(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 328014800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter password testtilludie",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testtilludie",
+                  "offset": 17
+                }
+              ],
+              "location": "HomepageSteps.enter_password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997934200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on signin",
+            "match": {
+              "location": "HomepageSteps.Click_signin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 208855000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Addresses",
+            "match": {
+              "location": "HomepageSteps.Click_Addresses()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 744993500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on New Address",
+            "match": {
+              "location": "AddresspageSteps.Click_Newaddress()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 821371100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter fisrtname Adithya",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Adithya",
+                  "offset": 18
+                }
+              ],
+              "location": "AddresspageSteps.String_firstname(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 322154400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter lastname krishna",
+            "match": {
+              "arguments": [
+                {
+                  "val": "krishna",
+                  "offset": 17
+                }
+              ],
+              "location": "AddresspageSteps.String_lastname(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 432079100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter Address1 details charlottenburger street,23",
+            "match": {
+              "arguments": [
+                {
+                  "val": "charlottenburger street,23",
+                  "offset": 25
+                }
+              ],
+              "location": "AddresspageSteps.String_Address1(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 399376900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I entered Address2 details Atlanta, United States",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Atlanta, United States",
+                  "offset": 27
+                }
+              ],
+              "location": "AddresspageSteps.String_Address2(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 352935600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I have entered the city name Atlanta",
+            "match": {
+              "arguments": [
+                {
+                  "val": " Atlanta",
+                  "offset": 28
+                }
+              ],
+              "location": "AddresspageSteps.String_city(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 244572700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I will select state from the dropdown Alaska",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alaska",
+                  "offset": 38
+                }
+              ],
+              "location": "AddresspageSteps.Select_address_state(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 289554800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I will enter the postal zipcode  10325",
+            "match": {
+              "arguments": [
+                {
+                  "val": "  10325",
+                  "offset": 31
+                }
+              ],
+              "location": "AddresspageSteps.address_zipcode(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 210999600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I will select United States",
+            "match": {
+              "location": "AddresspageSteps.address_country_us()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 213982800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I will select Canada",
+            "match": {
+              "location": "AddresspageSteps.address_country_canada()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 267531000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I will enter the date in textbox 04-05-2013",
+            "match": {
+              "arguments": [
+                {
+                  "val": " 04-05-2013",
+                  "offset": 32
+                }
+              ],
+              "location": "AddresspageSteps.address_date(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 247620400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I will enter the age in textbox 7",
+            "match": {
+              "arguments": [
+                {
+                  "val": " 7",
+                  "offset": 31
+                }
+              ],
+              "location": "AddresspageSteps.address_age(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 394377000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I will enter the website details  http://www.google.com/",
+            "match": {
+              "arguments": [
+                {
+                  "val": "  http://www.google.com/",
+                  "offset": 32
+                }
+              ],
+              "location": "AddresspageSteps.address_website(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 279792500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I will enter the Phone number  9000000000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "  9000000000",
+                  "offset": 29
+                }
+              ],
+              "location": "AddresspageSteps.address_phone(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 323640700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I choose interests reading,dancing",
+            "match": {
+              "arguments": [
+                {
+                  "val": "reading,dancing",
+                  "offset": 19
+                }
+              ],
+              "location": "AddresspageSteps.choose_interest(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 280975700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I will enter in the note textbox  address note",
+            "match": {
+              "arguments": [
+                {
+                  "val": "  address note",
+                  "offset": 32
+                }
+              ],
+              "location": "AddresspageSteps.address_note(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 783279700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I will click on create address",
+            "match": {
+              "location": "AddresspageSteps.click_submit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 186809200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I will click on edit",
+            "match": {
+              "location": "AddresspageSteps.click_edit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 916711000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I enter lastname Narayan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Narayan",
+                  "offset": 17
+                }
+              ],
+              "location": "AddresspageSteps.String_lastname(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 687260800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I will click on update address",
+            "match": {
+              "location": "AddresspageSteps.click_submit()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 659312300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I will click on signout",
+            "match": {
+              "location": "AddresspageSteps.click_signout()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@contact"
+          }
+        ]
+      }
+    ],
+    "name": "Address book",
+    "description": "",
+    "id": "address-book",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/test1.feature",
+    "tags": []
+  }
+]

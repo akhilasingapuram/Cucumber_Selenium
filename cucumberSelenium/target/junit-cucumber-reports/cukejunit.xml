@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.868078">
+<testcase classname="Address book" name="adding address" time="23.868078">
+<system-out><![CDATA[Given Launch the browser....................................................passed
+When I click link signin_Link...............................................passed
+When I enter email testtilludie@gmail.com...................................passed
+When I enter password testtilludie..........................................passed
+Then I click on signin......................................................passed
+Then I click on Addresses...................................................passed
+Then I click on New Address.................................................passed
+Then I enter fisrtname Adithya..............................................passed
+Then I enter lastname krishna...............................................passed
+Then I enter Address1 details charlottenburger street,23....................passed
+When I entered Address2 details Atlanta, United States......................passed
+When I have entered the city name Atlanta...................................passed
+Then I will select state from the dropdown Alaska...........................passed
+Then I will enter the postal zipcode  10325.................................passed
+Then I will select United States............................................passed
+Then I will select Canada...................................................passed
+Then I will enter the date in textbox 04-05-2013............................passed
+Then I will enter the age in textbox 7......................................passed
+Then I will enter the website details  http://www.google.com/...............passed
+Then I will enter the Phone number  9000000000..............................passed
+Then I choose interests reading,dancing.....................................passed
+Then I will enter in the note textbox  address note.........................passed
+Then I will click on create address.........................................passed
+Then I will click on edit...................................................passed
+Then I enter lastname Narayan...............................................passed
+Then I will click on update address.........................................passed
+Then I will click on signout................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
